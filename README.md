@@ -9,9 +9,9 @@ There are two responsibilities
  get items in database with its discount percentage, sell the quantity of product at less percentage what he/she got
  
  
- Used: 
-      Content Provider
-      SqlDatabaseHelper
-      Custom Cursor Adapter
-      Custom Array Adapter
+ Used:  
+      Content Provider,
+      SqlDatabaseHelper,
+      Custom Cursor Adapter,
+      Custom Array Adapter,
       Performed CURD operation on background thread
