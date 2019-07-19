@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Supplier</string>
+
+    <string name="admin">Admin</string>
+
+    <string name="user">User</string>
+
+    <string name="product">Products</string>
+
+    <string name="title_activity_view_product">Products</string>
+
+    <string name="save_product">Save</string>
+
+    <string name="delete_product">Delete</string>
+
+    <!-- Title text for the empty view, which describes the empty product shelves image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit empty here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+</resources>

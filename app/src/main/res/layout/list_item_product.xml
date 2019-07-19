@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4sp">
+
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8sp"
+        android:text="Panadol syp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="8sp">
+
+        <TextView
+            android:id="@+id/textViewProductTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TP : 90.0"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/textViewProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Qty : 200"
+
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/textViewProductDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="% : 10"
+
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/textViewFinalRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FR : 81.0"
+
+            android:textAlignment="textStart" />
+    </LinearLayout>
+</LinearLayout>
