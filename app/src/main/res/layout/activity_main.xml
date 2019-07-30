@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -84,6 +85,43 @@
                 android:textStyle="italic" />
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="#CB464646"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#f5c181"
+            android:textColorHint="#9CE4B17E"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f5c181"
+            android:text="Login"
+            android:textColor="#1D1D1D" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

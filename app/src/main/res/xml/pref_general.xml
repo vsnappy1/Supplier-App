@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Admin"
+        >
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_cb_password_default"
+            android:summaryOff="Disable"
+            android:summaryOn="Enable"
+            android:title="@string/pref_cb_password_title"
+            android:key="@string/pref_admin_cb_password_key"/>
+        <EditTextPreference
+            android:defaultValue="@string/pref_admin_password_default"
+            android:title="@string/pref_cb_password_title"
+            android:key="@string/pref_admin_password_key"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="User"
+        >
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_cb_password_default"
+            android:summaryOff="Disable"
+            android:summaryOn="Enable"
+            android:title="@string/pref_cb_password_title"
+            android:key="@string/pref_user_cb_password_key"/>
+        <EditTextPreference
+            android:defaultValue="@string/pref_user_password_default"
+            android:title="@string/pref_cb_password_title"
+            android:key="@string/pref_user_password_key"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

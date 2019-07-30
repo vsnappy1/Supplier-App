@@ -9,10 +9,11 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditorActivity"
-            ></activity>
-        <activity android:name=".ViewProductActivity"
-            android:label="Products"/>
+        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".EditorActivity" />
+        <activity
+            android:name=".ViewProductActivity"
+            android:label="Products" />
         <activity
             android:name=".BillingActivity"
             android:label="Billing" />
@@ -26,10 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
-            android:authorities="com.vishalkumar.supplier.provider"
             android:name=".data.ProductProvider"
-            android:exported="false"></provider>
+            android:authorities="com.vishalkumar.supplier.provider"
+            android:exported="false" />
     </application>
 
 </manifest>
